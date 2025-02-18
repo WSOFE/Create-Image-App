@@ -7,7 +7,7 @@ This project is licensed under the **MIT License**. Please see the LICENSE file 
 
 ### KaTeX  
 - **License:** MIT  
-- **Copyright:** (c) 2013-2025 Khan Academy and other contributors  
+- **Copyright:** (c) 2013-2020 Khan Academy and other contributors  
 - **Official Website:** [https://katex.org/](https://katex.org/)  
 - **Official GitHub:** [https://github.com/KaTeX/KaTeX](https://github.com/KaTeX/KaTeX)  
 
