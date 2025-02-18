@@ -19,17 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
-
-
-## Dependencies and Their Licenses(According to their official github account.We collected this data in 18 February 2025).
-### KaTeX
-MIT License  
-Copyright (c) 2013-2020 Khan Academy and other contributors  
-[https://github.com/KaTeX/KaTeX](https://github.com/KaTeX/KaTeX)
-
-### html2canvas
-MIT License  
-Copyright (c) 2012 Niklas von Hertzen  
-[https://github.com/niklasvh/html2canvas](https://github.com/niklasvh/html2canvas)
