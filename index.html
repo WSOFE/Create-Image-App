@@ -1,0 +1,244 @@
+<!-- 
+ 
+# Read Me First  
+
+MIT License
+
+Copyright (c) 2025 World School of Education
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+
+## Dependencies and Their Licenses  
+(Collected from their official GitHub repositories on **February 18, 2025**.)  
+
+### KaTeX  
+- **License:** MIT  
+- **Copyright:** (c) 2013-2025 Khan Academy and other contributors  
+- **Official Website:** [https://katex.org/](https://katex.org/)  
+- **Official GitHub:** [https://github.com/KaTeX/KaTeX](https://github.com/KaTeX/KaTeX)  
+
+### html2canvas  
+- **License:** MIT  
+- **Copyright:** (c) 2012 Niklas von Hertzen  
+- **Official Website:** [https://html2canvas.hertzen.com/](https://html2canvas.hertzen.com/)  
+- **Official GitHub:** [https://github.com/niklasvh/html2canvas](https://github.com/niklasvh/html2canvas)  
+
+
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Creator Apps</title>
+    <style>
+        button{
+            font-family: poppins;
+        }
+        .container{
+            background-color: aquamarine;
+            margin: 0 auto;
+        }
+         .Image{
+           width: 1200px;
+           height: 1200px;
+           background-color: #FF1111; 
+           margin: 0 auto;
+           display: flex;
+           align-items: center;
+           
+           
+           justify-content: center;
+           
+        }
+        .Image2{
+            margin: 0;
+        }
+        .buttondiv{
+            width: 1200px;
+            height: 50px;
+            margin: 0 auto;
+            background-color: yellow;
+        }
+        .btn{
+            width: 100px;
+            height: 50px;
+        }
+        .btnA{
+            width: 50px;
+            height: 50px;
+            background-color:#0DF8D0
+        }
+        .btnB{
+            width: 50px;
+            height: 50px;
+            background-color:#F80D30
+        }
+        .btnC{
+            width: 50px;
+            height: 50px;
+            background-color:#F80D58
+        }
+        .btnD{
+            width: 50px;
+            height: 50px;
+            background-color:#FFFFFF
+        }
+        .btnE{
+            width: 50px;
+            height: 50px;
+            background-color:#FFFF00
+        }
+        .btnF{
+            width: 50px;
+            height: 50px;
+            background-color:#53F80D
+        }
+        .btnG{
+            width: 50px;
+            height: 50px;
+            background-color:#00ffff
+        }
+        .big{
+            background-color:red;
+            
+        }
+        .small{
+            background-color: #FFFF00;
+        }
+       
+        /* *{
+            font-family: rayhan;
+        } */
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css">
+</head>
+<body>
+        <div class="container">
+
+        
+        <div class="Image">
+
+        <h1 class="Image2">
+        
+
+        </h1>
+        
+    </div>
+    <div class="buttondiv">
+
+        <button class="btn">Save</button>
+        <button class="Write btn">Write</button>
+        
+        <button class="btnA">A</button>
+        <button class="btnB">B</button>
+        <button class="btnC">C</button>
+        <button class="btnD">D</button>
+        <button class="btnE">E</button>
+        <button class="btnF">F</button>
+        <button class="btnG">G</button>
+    </div>
+    
+    </div>
+
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+    <script>
+        
+        
+
+        var btnA= document.querySelector(".btnA")
+        var btnB= document.querySelector(".btnB")
+        btnA.addEventListener("click",function(){
+            var images = document.querySelector(".Image")
+            images.style.background = "#0DF8D0"  
+        });
+
+
+        var btnB= document.querySelector(".btnB")
+        btnB.addEventListener("click",function(){
+            var images = document.querySelector(".Image")
+            images.style.background = "#F80D30"  
+        });
+
+        var btnC= document.querySelector(".btnC")
+        btnC.addEventListener("click",function(){
+            var images = document.querySelector(".Image")
+            images.style.background = "#F80D58"  
+        });
+
+        var btnD= document.querySelector(".btnD")
+        btnD.addEventListener("click",function(){
+            var images = document.querySelector(".Image")
+            images.style.background = "#FFFFFF"  
+        });
+
+        var btnE= document.querySelector(".btnE")
+        btnE.addEventListener("click",function(){
+            var images = document.querySelector(".Image")
+            images.style.background = "#FFFF00"  
+        });
+        var btnF= document.querySelector(".btnF")
+        btnF.addEventListener("click",function(){
+            var images = document.querySelector(".Image")
+            images.style.background = "#53F80D"  
+        });
+        var btnG= document.querySelector(".btnG")
+        btnG.addEventListener("click",function(){
+            var images = document.querySelector(".Image")
+            images.style.background = "#00ffff"  
+        });
+
+        var write = document.querySelector(".Write");
+        write.addEventListener("click",function(){
+        var textContainer = document.querySelector(".Image2")
+
+
+        var equation = prompt("Enter Katex Equation or Latex Equation:");
+        var font =parseFloat(prompt("Font Size:"));
+        textContainer.style.fontSize =`${font}px`;
+        katex.render(equation,textContainer)
+        });
+
+        
+
+
+
+        var images = document.querySelector(".Image")
+        var btn = document.querySelector(".btn")
+        btn.addEventListener("click",function(){
+            html2canvas(images).then(canvas =>{
+                var link = document.createElement("a");
+                link.download = `${Date}.png`;
+                link.href = canvas.toDataURL();
+                link.click();
+
+            });
+        })
+
+    </script>
+</body>
+</html>
