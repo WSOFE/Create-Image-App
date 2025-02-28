@@ -32,7 +32,7 @@ We have incorporated the following fonts, both licensed under the **SIL Open Fon
    - **Source:** [Google Fonts](https://fonts.google.com/specimen/Poppins)  
 
 2. KaTeX default font.  
-   - **Source:** [KaTeX Main Website]([https://en.wikipedia.org/wiki/Computer_Modern](https://katex.org/docs/font))  
+   - **Source:** [KaTeX Main Website](https://en.wikipedia.org/wiki/Computer_Modern](https://katex.org/docs/font))  
 
 ## Courtesy  
 
