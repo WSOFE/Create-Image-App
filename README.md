@@ -31,8 +31,8 @@ We have incorporated the following fonts, both licensed under the **SIL Open Fon
 1. **Poppins** – A modern sans-serif typeface.  
    - **Source:** [Google Fonts](https://fonts.google.com/specimen/Poppins)  
 
-2. **Computer Modern** – The default LaTeX font, offering a more formal appearance.  
-   - **Source:** [Wikipedia](https://en.wikipedia.org/wiki/Computer_Modern)  
+2. KaTeX default font.  
+   - **Source:** [KaTeX Main Website]([https://en.wikipedia.org/wiki/Computer_Modern](https://katex.org/docs/font))  
 
 ## Courtesy  
 
@@ -40,6 +40,6 @@ A special thanks to:
 - **Khan Academy** and contributors for **KaTeX**.  
 - **Niklas von Hertzen** for **html2canvas**.  
 - **Google Fonts** for providing the **Poppins** font.  
-- **Donald Knuth** for creating **Computer Modern**, the LaTeX default font.  
+
 
 Without these open-source contributions, this project would not have been possible.  
